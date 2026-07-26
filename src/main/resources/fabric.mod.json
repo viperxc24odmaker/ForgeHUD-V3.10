@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "forgehud",
+  "version": "3.1.0",
+  "name": "ForgeHUD",
+  "description": "A full client-style HUD suite: 30 modules in 6 categories, an animated custom interface with presets and a dashboard, waypoints with a compass bar, motion FX, live graphs and notifications. Right Shift opens the menu.",
+  "authors": ["Divine / MakeForge"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.makeforge.forgehud.ForgeHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
